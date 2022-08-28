@@ -1,0 +1,17 @@
+let a = parseInt(prompt("inter your Integer Number?", 9));
+
+let i,prod=1,sum=0;
+println(typeof(a));
+if (Number.isInteger(a)){
+    for(i =1; i< a; i++){
+        prod = prod *i;
+        sum = sum+i;
+        if(prod%sum == 0){
+            println("YEAH");   
+        }else{
+            println("NAH");
+        }
+    }
+        
+    
+}
