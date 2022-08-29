@@ -1,0 +1,23 @@
+var array = [],i, max_group_value, min_group_value, max_diff;
+
+var size_of_array = parseInt(prompt("enter size of array"));
+
+for(i = 0; i < size_of_array; i++){
+    array[i] = parseInt(prompt("enter Your Number", i+1));
+    
+}
+
+function max_different (array,n){
+    array.sort(function(a,b){
+         return a-b;
+        });
+    
+    println(array);
+    min_group_value = array[0] + array[1];
+    
+    max_group_value = array[n-1] + array[n-2];
+    
+    return max_diff = max_group_value - min_group_value;
+}
+
+println (max_different(array,size_of_array));
