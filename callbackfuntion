@@ -1,0 +1,14 @@
+function population_of_city(city_name){
+    if(city_name === 'dhaka'){
+         println (`there population 2000 and ${city_name} is the capital of bd`);
+    
+        
+    }
+}
+
+function cities_of_bangladesh(name){
+    population_of_city(name);
+}
+
+cities_of_bangladesh('dhaka')
+population_of_city();
